@@ -97,6 +97,9 @@ export default function Cart() {
                                             <div className="col-4 col-lg-1 mt-4 mt-lg-0">
                                                 <i id="delete_cart_item" onClick={() => dispatch(removeItemFromCart(item.product))} className="fa fa-trash btn btn-danger"></i>
                                             </div>
+                                            <div className='avatar'>
+
+                                            </div>
 
                                         </div>
                                     </div>
